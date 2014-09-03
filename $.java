@@ -1,0 +1,1 @@
+enum ${$;{_(System.console().readLine().toCharArray(),0);}int _(char[]a,int i){if(i>80)System.out.println(a);else{if(a[i]>48)return _(a,i+1);char v[]=a.clone(),k=65535;while(++k<9)v[a[i/9*9+k]]=v[a[i%9+k*9]]=v[a[i-i%3-i/9%3*9+k+k/3*6]]=1;for(k=58;(a[i]=--k)>48;)if(v[k]>1&&_(a,i+1)==1)return 1;}return i/81;}}
